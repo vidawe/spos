@@ -1,0 +1,17 @@
+- START 100
+A DS 05
+- LOAD A
+- ADD AREG, ='5'
+- MULT BREG, ='10'
+- TRANSL -
+L2 PRINT L1
+- LTORG -
+L ADD AREG, ='5'
+- SUB BREG, ='15'
+- ADD B
+B EQU L+10
+- ORIGIN L2+20
+L1 DS 5
+C DC 10
+- STOP -
+- END -
