@@ -45,3 +45,12 @@ elif arr[1] in impst:
     print("(IS,"+impst[arr[1]]+")")
     
 file.close()
+
+
+#for line in read_obj:
+            # For each line, check if line contains the string
+           # line_number += 1
+            #if string_to_search in line:
+                # If yes, then add the line number & line as a tuple in the list
+             #   list_of_results.append((line_number, line.rstrip()))
+
